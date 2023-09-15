@@ -37,7 +37,7 @@ const VoxelCat = () => {
       });
       renderer.setPixelRatio(window.devicePixelRatio);
       renderer.setSize(scW, scH);
-      renderer.uotputColorSpace = THREE.SRGBColorSpace;
+      renderer.outputColorSpace = THREE.SRGBColorSpace;
       container.appendChild(renderer.domElement);
       refRenderer.current = renderer;
 
