@@ -80,7 +80,7 @@ const Home = () => (
           jego osobistą wizją. Jego ekspertyza obejmuje cały cykl życia
           produktu, poczynając od strategicznego planowania i kreatywnego
           projektowania, aż do wdrażania pragmatycznych rozwiązań kodowych,
-          które rozwiązują rzeczywiste problemy. Poza cyfrowymi projektami, Arek
+          które eliminują rzeczywiste problemy. Poza cyfrowymi projektami, Arek
           ceni chwilę ze słuchawkami i muzyką, którą sam komponuje. Ponadto,
           jego pasją są także góry, których w malowniczym Bielsku-Białej jest
           wiele, co sprawia, że regularnie czerpie inspirację z ich
@@ -117,7 +117,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2006</BioYear>
-          Do dnia dzisiejszego podejmuję się różnych wyzwań ;)
+          Do dnia dzisiejszego podejmuję się różnych wyzwań.
         </BioSection>
       </Section>
 
@@ -131,7 +131,7 @@ const Home = () => (
             Muzyka
           </Link>
           , Instrumenty perkusyjne, Akordeon, Pianino,{' '}
-          <Link href="#">Poezja</Link>, Nauka fullstacka ;) ,{' '}
+          <Link href="#">Poezja</Link>, Nauka fullstacka ,{' '}
           <Link href="https://www.empik.com/ksiazki,31,s?q=ba%C5%9Bniob%C3%B3r">
             Książki
           </Link>
