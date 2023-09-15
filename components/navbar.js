@@ -93,7 +93,7 @@ const Navbar = props => {
                 <NextLink href="/realizacje" passHref>
                   <MenuItem as={Link}>Realizacje</MenuItem>
                 </NextLink>
-                <NextLink href="/posts" passHref>
+                <NextLink href="https://devaj.000webhostapp.com/" passHref>
                   <MenuItem as={Link}>Posty</MenuItem>
                 </NextLink>
               </MenuList>
