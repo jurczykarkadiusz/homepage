@@ -70,7 +70,7 @@ const Navbar = props => {
           <LinkItem href="/realizacje" path={path}>
             Realizacje
           </LinkItem>
-          <LinkItem href="/posts" path={path}>
+          <LinkItem href="https://devaj.000webhostapp.com/" target="_blank">
             Posty
           </LinkItem>
         </Stack>
