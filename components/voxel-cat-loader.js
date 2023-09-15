@@ -18,7 +18,7 @@ export const CatContainer = forwardRef(({ children }, ref) => (
     ref={ref}
     className="voxel-cat"
     m="auto"
-    mt={['-20px', '0px', '-40px']}
+    mt={['20px', '0px', '-40px']}
     mb={['-40px', '-140px', '-200px']}
     w={[280, 480, 640]}
     h={[280, 480, 640]}
