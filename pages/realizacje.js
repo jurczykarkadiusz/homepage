@@ -1,12 +1,11 @@
-import { Container, Heading, SimpleGrid } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid, Image } from '@chakra-ui/react'
 import Section from '../components/section'
 import { RealizacjaGridItem } from '../components/grid-item'
 
-import thumbJeden from '../public/images/realizacje/jeden.png'
-import thumbDwa from '../public/images/realizacje/dwa.png'
-import thumbTrzy from '../public/images/realizacje/trzy.png'
-import thumbCztery from '../public/images/realizacje/cztery.png'
-import thumbPięć from '../public/images/realizacje/pięć.png'
+import thumbJeden from '../public/images/realizacje/eyecatch_prokody.png'
+import thumbDwa from '../public/images/realizacje/eyecatch_patkapolka.png'
+import thumbTrzy from '../public/images/realizacje/eyecatch_malujemylinie.png'
+import thumbCztery from '../public/images/realizacje/eyecatch_digitalowl.png'
 
 const Realizacje = () => (
       <Container position="relative">
@@ -17,47 +16,39 @@ const Realizacje = () => (
         <SimpleGrid columns={[1, 1, 2]} gap={6}>
           <Section delay={0.3}>
             <RealizacjaGridItem
-            id="jeden"
-            title="Jeden"
+            id="prokody"
+            title="Pro Kody"
             thumbnail={thumbJeden}
+            
             >
-              Opis projektu itd itd itd
+              Portal oferujący konta premium do serwisów takich jak Netflix, HBO, Spotify i Tidal.
             </RealizacjaGridItem>
           </Section>
           <Section>
             <RealizacjaGridItem
-            id="dwa"
-            title="Dwa"
+            id="patkapolka"
+            title="Patka Polka"
             thumbnail={thumbDwa}
             >
-              Opis projektu itd itd itd
+              Blog osobisty połączony z social media.
             </RealizacjaGridItem>
           </Section>
           <Section>
             <RealizacjaGridItem
-            id="trzy"
-            title="Trzy"
+            id="malujemylinie"
+            title="Malujemy Linie"
             thumbnail={thumbTrzy}
             >
-              Opis projektu itd itd itd
+              Portal oferujący oznakowania poziome parkingów,hal magazynowych itd.
             </RealizacjaGridItem>
           </Section>
           <Section>
             <RealizacjaGridItem
-            id="cztery"
-            title="Cztery"
+            id="digitalowl"
+            title="DigitalOwl"
             thumbnail={thumbCztery}
             >
-              Opis projektu itd itd itd
-            </RealizacjaGridItem>
-          </Section>
-          <Section>
-            <RealizacjaGridItem
-            id="pięć"
-            title="Pięć"
-            thumbnail={thumbPięć}
-            >
-              Opis projektu itd itd itd
+              Serwis projektowy stron internetowych.
             </RealizacjaGridItem>
           </Section>
         </SimpleGrid>

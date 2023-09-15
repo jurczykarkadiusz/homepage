@@ -29,6 +29,7 @@ export const RealizacjaGridItem = ({ children, id, title, thumbnail }) => (
           alt={title}
           className="grid-item-thumbnail"
           placeholder="blur"
+          style={{ borderRadius: '12px' }}
         />
         <LinkOverlay href={`/realizacje/${id}`}>
           <Text mt={2} fontSize={20}>
