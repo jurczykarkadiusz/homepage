@@ -1,0 +1,51 @@
+37:25
+
+<Section delay={0.1}>
+        nad własnym produktem, ale szczegóły pozostaną
+          tajemnicą aż do jeg<Heading as="h3" variant="section-title">
+          Realizacje
+        </Heading>
+        <Paragraph>
+          Arek to freelance web developer z Bielska-Białej, który jest napędzany
+          głęboką pasją do tworzenia rozwiązań cyfrowych, które harmonizują z
+          jego osobistą wizją. Jego ekspertyza obejmuje cały cykl życia
+          produktu, poczynając od strategicznego planowania i kreatywnego
+          projektowania, aż do wdrażania pragmatycznych rozwiązań kodowych,
+          które rozwiązują rzeczywiste problemy. Poza cyfrowymi projektami, Arek
+          ceni chwilę ze słuchawkami i muzyką, którą sam komponuje{' '}
+          <NextLink href="/works/soundcloud"><Link>Soundcloud</Link></NextLink>. Ponadto, jego pasją są
+          także góry, których w malowniczym Bielsku-Białej jest wiele, co
+          sprawia, że regularnie czerpie inspirację z ich majestatycznych
+          widoków. Obecnie Arek skupia się na rozwijaniu swojej kreatywności
+          poprzez tworzenie treści - wkrótce aktywuje kanał na YouTube.
+          Dodatkowo, pracuje o ukończenia.
+        </Paragraph>
+      </Section>
+
+
+
+do zmiany theme-toggle-button zmiana mode='wait' na exitBeforeEnter linijka : 
+<AnimatePresence mode='wait' initial={false}>
+
+gdzieś jeszcze zmieniłem to na mode wait
+
+53:13
+
+skopiować posty i dorobić numerki do tego samego zdjęcia
+
+
+Layout nie trybi może na koniec pododaje i zobaczymy
+
+01:08:27
+
+
+this._threejs.shadowMap.enabled = true
+this._threejs.shadowMap.type = THREE.PCSoftShadowMap
+
+how to rewrite and add this to my code :
+
+let light = new THREE.DirectionalLight(0xFFFFFF, 1.0)
+light.position.set(20, 100, 10)
+light.target.position.set(0, 0, 0)
+light.castShadow = true
+this._scene.add(light)
