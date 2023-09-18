@@ -9,7 +9,6 @@ import {
   ListItem,
   useColorModeValue,
   chakra,
-  IconButton,
 } from '@chakra-ui/react';
 import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons';
 import Paragraph from '../components/paragraph';
