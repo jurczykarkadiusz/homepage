@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import Head from 'next/head'
 import Layout from '../components/layouts/main'
 import Fonts from '../components/fonts'
@@ -54,6 +55,7 @@ function Website({ Component, pageProps, router }) {
           }}
         >
           <Component {...pageProps} key={router.route} />
+          <Analytics />
         </AnimatePresence>
       </Layout>
     </Chakra>
