@@ -26,7 +26,8 @@ function Website({ Component, pageProps, router }) {
           <meta name="keywords" content={metaKeywords} />
           {/* Other meta tags */}
           <link rel="canonical" href={router.pathname === '/' ? 'https://www.ajdev.pl' : `https://www.ajdev.pl${router.pathname}`} />
-          <link rel="icon" href="/favicon.ico" />
+          {/* Larger favicon (128x128) */}
+          <link rel="icon" href="/favicon.png" sizes="128x128" type="image/png" />
           {/* Structured Data (example for a person) */}
           <script type="application/ld+json">
             {`
