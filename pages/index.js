@@ -41,7 +41,7 @@ const Home = () => (
           <Heading as="h2" variant="page-title">
             Arkadiusz Jurczyk
           </Heading>
-          <p>Dżepetto wszelakich internetów (Developer / Muzyk / Designer)</p>
+          <p>Kot internetów (Developer / Muzyk / Designer)</p>
         </Box>
         <Box
           flexShrink={0}
