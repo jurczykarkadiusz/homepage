@@ -1,4 +1,4 @@
-import NextLink from 'next/link';
+import NextLink from 'next/link'
 import {
   Link,
   Container,
@@ -9,14 +9,14 @@ import {
   ListItem,
   useColorModeValue,
   chakra,
-} from '@chakra-ui/react';
-import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons';
-import Paragraph from '../components/paragraph';
-import { BioSection, BioYear } from '../components/bio';
-import Section from '../components/section';
-import Image from 'next/image';
-import Footer from '../components/footer';
-import { IoLogoGithub } from 'react-icons/io5';
+} from '@chakra-ui/react'
+import { ChevronRightIcon, EmailIcon } from '@chakra-ui/icons'
+import Paragraph from '../components/paragraph'
+import { BioSection, BioYear } from '../components/bio'
+import Section from '../components/section'
+import Image from 'next/image'
+import Footer from '../components/footer'
+import { IoLogoGithub } from 'react-icons/io5'
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop),
@@ -25,7 +25,7 @@ const ProfileImage = chakra(Image, {
 const Home = () => {
   const handleContactClick = () => {
     // Use the `mailto:` scheme to open the default email client
-    window.location.href = 'mailto:admin@ajdev.pl';
+    window.location.href = 'mailto:admin@ajdev.pl'
   };
 
   return (
@@ -175,8 +175,8 @@ const Home = () => {
       </Container>
       <Footer />
     </div>
-  );
-};
+  )
+}
 
 export default Home;
-export { getServerSideProps } from '../components/chakra';
+export { getServerSideProps } from '../components/chakra'
